@@ -1,0 +1,286 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    position:fixed;
+    z-index: 100;
+    border-bottom: 1px solid #dcdcdc;
+    background-color: #fff;
+    top: 0;
+    
+    .fixed{
+        background-color: #f6f7f8;
+        .container{
+            padding-left: 40px;
+             padding-right: 40px;
+             width: 100%;
+             margin-left: auto;
+             margin-right: auto;
+             .row{
+               height: 50px; 
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                margin-left: -15px;
+                margin-right: -15px;
+                .col {
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    justify-content: space-between;
+                    .mr-4 {
+                        font-size: 14px;
+                        text-decoration: none;
+                        color: #666666;
+                        margin: 0px 24px 0px 0px;
+                        }
+                        .mr-4:hover {
+                            text-decoration: underline;                            
+                            }
+                        .top_menu_pages a:last-child{
+                            border: 1.5px solid #0056c1;
+                            border-radius: 40px;
+                            color: #0056c1;
+                            display: inline-block;
+                            font-weight: 500;
+                            padding: 6px 12px;
+                            transition: 0.5s;
+                        }
+                        .top_menu_pages a:last-child:hover{
+                            background-color: #0056c1!important;
+                            color: #fff!important;
+                            text-decoration: none!important;
+                        }
+                    }
+                    .col-1{
+                        flex: 0 0 16.666667%;
+                        max-width: 16.666667%;
+                        .icon{
+                           display: flex;
+                           align-items: center;
+                            .call i{
+                                font-size: 14px;
+                                color: #252525;
+                                .call a{
+                                text-decoration: none;
+                                }
+                            }
+                           }
+                            }
+                        }
+                       .d-two{
+                        color: #bbb;
+                        font-size: 12px;
+                         cursor: pointer;
+                        margin-right: 10px;
+                       }
+                       .d-one{
+                        margin-right: 50px;
+                        font-size: 14px;
+                        color: #666666;
+                        cursor: pointer;
+                       }
+                    .lang{
+                        text-decoration: none;
+                        color: #262626;
+                        margin-right: 24px;
+                        font-size: 14px;
+                    .button{
+                    font-size: 16px;
+                    color: #262626;
+                    }
+                    }
+                    }
+                    }
+
+
+                    .header-s{
+                        width: 100%;
+                        z-index: 100;
+                        position: fixed;
+                        .border-bottom{
+                        border-bottom: 1px solid#262626;
+                        border-color: #f6f7f8;
+                        .container{
+                            padding-left: 40px;
+                             padding-right: 40px;
+                                    width: 100%;
+                                margin-left: auto;
+                                margin-right: auto;
+                            .row{
+                             display: flex;
+                             align-items: center;
+                            flex-wrap: wrap;
+                            height: 74px;
+                            margin-left: -15px;
+                             margin-right: -15px;
+                             .col{
+                                display: flex;
+                                align-items: center;
+                                width: 100%;
+                                flex: 0 0 75%;
+                                max-width: 75%;
+                                padding-left: 15px;
+                                padding-right: 15px;
+                                position: relative;
+                        .d-block{
+                        display: block;
+                        text-decoration: none;
+                        .w-50{
+                            
+                            width: 110px;
+                             height: 50px;
+                        }
+                        }
+                    }
+                    .ml-5{
+                        margin-left: 3rem !important;
+                         .fw-500{
+                            margin: 10px;
+                            color: #bbb;
+                            text-decoration: none;
+                            transition: .5s ;
+                         }
+                         .fw-50{
+                            color: #252525;
+                            }
+                            .fw-500:hover{
+                            color: #252525;
+                            }
+                    }
+                }
+                }
+                 .fw-500::after{
+                        color: #262626;
+                        content: "/";
+                        cursor: default;
+                        font-size: 15px;
+                        height: 20px;
+                        padding: 0 10px;
+                        width: 5px;
+                    
+                    }
+                    
+                    .col-2{
+                    display: flex;
+                    justify-content: flex-end;
+                    flex: 0 0 25%;
+                    max-width: 25%;
+                    .d-flex{
+                        text-decoration: none;
+                         color: #252525;
+                        display: flex;
+                        justify-content: flex-end;
+                         align-items: center;
+                        .img{
+                            height: 24px;
+                            width: 24px;
+                            margin-right: 10px;
+                        background-image: url("../img/internet-banking-signin.svg");
+                        background-position: 50%;
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        display: inline-block;
+                        }
+                        .fw-600{
+                            color: #0056c1;
+                          font-size: 15px;
+                          font-weight: 600;
+                        }
+                    }
+                    }
+                    }
+                    }
+                    .container-bottom{
+                        border-bottom: 1px solid rgb(230, 230, 230);
+                        padding-left: 40px;
+                        padding-right: 40px;
+                        width: 100%;
+                        margin-left: auto;
+                        margin-right: auto;
+                        .nav{
+                        position: relative;
+                        .header-s3{
+                            display: flex!important;
+                            align-items: center;
+                            height: 75px;
+                            list-style: none;
+                            margin: 0;
+                            padding: 0;
+                            .fr-4{
+                            padding-right: 1.5rem;
+                            .fw-400{
+                                 color: #17253a;
+                                 font-size: 15px;
+                                 text-decoration: none;
+                                 position: relative;
+                                    }  
+                                    .fw-400::before{
+                                        content: '';
+                                        position: absolute;
+                                        width: 75%;
+                                        height: 3px;
+                                        display: block;
+                                        border-radius: 10px 10px 0 0;
+                                        left: 0;
+                                        bottom: -25px;
+                                        background: #0056c1;
+                                    } 
+                                    .fw-400::before{
+                                        transform: scale(0,1);
+                                        transform-origin: 0% 100%;
+                                        transition: transform 1s ease;
+                                    }
+                                    .fw-400:hover::before{
+                                        transform: scale(1,1);
+                                    }
+                                    .navbar{
+                                        display: none;
+                                        opacity: 1;
+                                        background-color: #fff;
+                                        box-shadow: 0 20px 30px -30px rgba(0,0,0,.15);
+                                        left: 0;
+                                        padding: 40px 0 40px 50px;
+                                        position: absolute;
+                                        top: calc(101%);
+                                        width: 100%;
+                                        z-index: 10;
+
+                                        .col-3{
+                                            position: relative;
+                                            padding: 0!important;
+                                            max-width: 33.333333%;
+                                            width: 100%;
+                                            .d-flex{
+                                                flex-wrap: wrap;
+                                                display: flex;
+                                                .mb-3{
+                                                margin-bottom: 1rem;
+                                                flex: 0 0 50%;
+                                                max-width: 50%;
+                                                .fw-17{
+                                                text-decoration: none;
+                                                color: #252525;
+                                                }
+                                                }
+                                                
+                                            }
+                                        }
+                                    }
+                                    }
+                                        .row{
+                                            margin-left: -15px;
+                                            margin-right: -15px;
+                                        }
+                            }
+                            }
+                            .nav ul  li:hover .navbar.row{
+                            display: block;
+                            position: absolute;
+                            }
+                        }
+                    }
+                    
